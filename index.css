@@ -19,6 +19,7 @@ body {
   height: 367px;
   background-color: #242530;
   margin: 10% auto;
+  border: 6px #3a3f77 solid;
 }
 
 /* Display input field */
