@@ -72,12 +72,18 @@ body {
 /* Equal button styles */
 .buttons .equal {
   background-color: rgb(120, 167, 238);
+  width: 45px;
 }
 
 /* Button hover styles */
 .buttons button:hover {
   background: #374b41;
   color: aliceblue;
+}
+
+.buttons .left {
+  margin-left: -20px;
+  padding-left: -20px;
 }
 
 /* History section styles */
