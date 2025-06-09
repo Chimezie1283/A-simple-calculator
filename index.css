@@ -1,0 +1,98 @@
+/* CSS for a simple calculator application */
+/* Reset some default styles */
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+/* Calculator container */
+.calculator {
+  background: rgb(82, 74, 74);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  height: 367px;
+  background-color: #242530;
+  margin: 10% auto;
+}
+
+/* Display input field */
+#display {
+  width: 350px;
+  font-size: 40px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #3a3f77;
+  color: rgb(220, 197, 168);
+  margin: 10px;
+}
+
+/* Buttons container */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 70px);
+  gap: 8px;
+  width: 300px;
+  margin: 0 20px;
+}
+
+/* Button styles */
+.buttons button {
+  padding: 7px 15px;
+  font-size: 20px;
+  border-radius: 35px;
+  background-color: #404258;
+  cursor: pointer;
+  transition: background 0.2s;
+  width: 65px;
+  height: 45px;
+  color: aliceblue;
+}
+
+/* Operator button styles */
+.buttons .operators {
+  background-color: #f49d1a;
+  color: #676464;
+  width: 45px;
+  height: 45px;
+}
+
+/* Clear button styles */
+.buttons .clear {
+  background-color: red;
+  color: #676464;
+}
+
+/* Equal button styles */
+.buttons .equal {
+  background-color: rgb(120, 167, 238);
+}
+
+/* Button hover styles */
+.buttons button:hover {
+  background: #374b41;
+  color: aliceblue;
+}
+
+/* History section styles */
+#history {
+  margin-top: 20px;
+  max-height: 14px;
+  overflow-y: auto;
+  background: #fafafa;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* History section paragraph styles */
+#history p {
+  margin: 2px 0 7px 0;
+}
